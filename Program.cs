@@ -7,6 +7,7 @@ namespace ConsoleApp
     class Program
     {
         static TesteNamespace.x.Teste teste1;
+        static readonly Class1 class1 = new();
 
         static void Main(string[] args)
         {
@@ -16,6 +17,7 @@ namespace ConsoleApp
 
             teste1 = new TesteNamespace.x.Teste("Lander"); // Inicialização do objeto teste1
             teste1.Metodo();
+            class1.Teste();
 
             // teste1.nome = "Jose";
             // teste1.Metodo();

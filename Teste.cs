@@ -16,7 +16,7 @@ namespace TesteNamespace
 
             public void Metodo()
             {
-                Console.WriteLine($"Ola de outra classe {nome}");
+                Console.WriteLine($"Ola do arquivo teste {nome}");
             }
 
         }
